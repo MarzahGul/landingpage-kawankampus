@@ -1363,6 +1363,12 @@ section,
   margin-bottom: 50px;
 }
 
+.picteam {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 .team .member .member-info {
   background-color: var(--surface-color);
   color: color-mix(in srgb, var(--default-color), transparent 20%);
