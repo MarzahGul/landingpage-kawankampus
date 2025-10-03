@@ -23,7 +23,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #040677; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #13a4ec; /* Color for headings, subheadings and title throughout the website */
   --accent-color: /* #1acc8d */ #feba31; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -186,7 +186,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #10058c;
+  --background-color: #13a4ec;
 }
 
 /*--------------------------------------------------------------
@@ -562,20 +562,21 @@ h6 {
   border-radius: 4px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
   display: flex;
-  background-color: var(--background-color);
+  background-color: /* var(--background-color) */ white;
   transition: 0.3s;
-}
-
-.footer .footer-newsletter .newsletter-form:focus-within {
   border-color: var(--accent-color);
 }
+
+/* .footer .footer-newsletter .newsletter-form:focus-within {
+  border-color: var(--accent-color);
+} */
 
 .footer .footer-newsletter .newsletter-form input[type=email] {
   border: 0;
   padding: 4px;
   width: 100%;
-  background-color: var(--background-color);
-  color: var(--default-color);
+  background-color: /* var(--background-color) */ white;
+  color: /* var(--default-color) */ #1a1a1a;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=email]:focus-visible {
