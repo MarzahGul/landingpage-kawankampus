@@ -1283,6 +1283,8 @@ section,
 
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
+  height: 100px;
+  object-fit: cover;
   border-radius: 50%;
   border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
   margin: 0 auto;
