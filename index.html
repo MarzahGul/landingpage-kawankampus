@@ -1,73 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>KawanKampus</title>
+    <meta
+      name="description"
+      content="KawanKampus adalah superapps mahasiswa yang menyediakan berbagai solusi kampus: bimbingan akademik, transportasi, keuangan, lowongan kerja, pemesanan makanan, dan forum diskusi. Semua kebutuhan mahasiswa dalam satu aplikasi."
+    />
+    <meta
+      name="keywords"
+      content="KawanKampus, aplikasi mahasiswa, superapps kampus, bimbingan akademik, keuangan mahasiswa, lowongan kerja mahasiswa, forum kampus, ojek kampus, pemesanan makanan kampus, startup mahasiswa, aplikasi kampus Indonesia"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>KawanKampus</title>
-  <meta name="description"
-    content="KawanKampus adalah superapps mahasiswa yang menyediakan berbagai solusi kampus: bimbingan akademik, transportasi, keuangan, lowongan kerja, pemesanan makanan, dan forum diskusi. Semua kebutuhan mahasiswa dalam satu aplikasi.">
-  <meta name="keywords"
-    content="KawanKampus, aplikasi mahasiswa, superapps kampus, bimbingan akademik, keuangan mahasiswa, lowongan kerja mahasiswa, forum kampus, ojek kampus, pemesanan makanan kampus, startup mahasiswa, aplikasi kampus Indonesia">
+    <!-- OpenGraph -->
+    <meta
+      property="og:title"
+      content="KawanKampus – Superapps Mahasiswa dengan Solusi Lengkap"
+    />
+    <meta
+      property="og:description"
+      content="Satu aplikasi untuk semua kebutuhan mahasiswa: mentor, transportasi, keuangan, lowongan, makanan, dan forum. Teman digital mahasiswa ada di sini."
+    />
+    <meta property="og:image" content="assets/img/landingpage.png" />
+    <meta property="og:url" content="https://kawankampus.id" />
+    <meta property="og:type" content="website" />
 
-  <!-- OpenGraph -->
-  <meta property="og:title" content="KawanKampus – Superapps Mahasiswa dengan Solusi Lengkap">
-  <meta property="og:description"
-    content="Satu aplikasi untuk semua kebutuhan mahasiswa: mentor, transportasi, keuangan, lowongan, makanan, dan forum. Teman digital mahasiswa ada di sini.">
-  <meta property="og:image" content="assets/img/landingpage.png">
-  <meta property="og:url" content="https://kawankampus.id">
-  <meta property="og:type" content="website">
+    <!-- Favicons -->
+    <link href="assets/img/kk_png copy.png" rel="icon" />
+    <link href="assets/img/Logo kk.jpg" rel="logo kawankampus" />
 
-  <!-- Favicons -->
-  <link href="assets/img/kk_png copy.png" rel="icon">
-  <link href="assets/img/Logo kk.jpg" rel="logo kawankampus">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Bootslander
   * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">KawanKampus</h1>
+        </a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">KawanKampus</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#beranda" class="active">Beranda</a></li>
-          <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#fitur">Fitur</a></li>
-          <!-- <li><a href="#galeri">Galeri</a></li> -->
-          <li><a href="#tim">Tim</a></li>
-          <!-- <li><a href="#pricing">Pricing</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#beranda" class="active">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#fitur">Fitur</a></li>
+            <!-- <li><a href="#galeri">Galeri</a></li> -->
+            <li><a href="#tim">Tim</a></li>
+            <!-- <li><a href="#pricing">Pricing</a></li> -->
+            <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -84,409 +102,707 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="#contact">Kontak</a></li>
-          <li><a href="privacypolicy.html">Privasi</a></li>
-          <li><a href="delete-account.html">Hapus Akun</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="beranda" class="hero section dark-alter-background">
-      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
-
-      <div class="container">
-        <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/landingpage.png" class="img-fluid animated" alt="">
-          </div>
-
-          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1>Semua Aktivitas Kampus dalam Satu Aplikasi: <span>KawanKampus</span></h1>
-            <p>Dari nebeng, jajan, mentoring, sampai cari lowongan kerja — semuanya bisa kamu temukan di sini.</p>
-            <div class="d-flex">
-              <a href="#tentang" class="btn-get-started">Mulai Sekarang</a>
-              <a href="https://www.youtube.com/watch?v=yiDPHRJaj90"
-                class="glightbox btn-watch-video d-flex align-items-center" target="_blank"><i
-                  class="bi bi-play-circle"></i><span>Tonton Video</span>
-              </a>
-            </div>
-          </div>
-
-        </div>
+            <li><a href="#contact">Kontak</a></li>
+            <li><a href="privacypolicy.html">Privasi</a></li>
+            <li><a href="delete-account.html">Hapus Akun</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
       </div>
+    </header>
 
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
-        </g>
-      </svg>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="beranda" class="hero section dark-alter-background">
+        <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg" />
 
-    </section><!-- /Hero Section -->
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+            <div
+              class="col-lg-4 order-lg-last hero-img"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/Group 333 (1).png"
+                class="img-fluid animated"
+                alt=""
+              />
+            </div>
 
-    <!-- About Section -->
-    <section id="tentang" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
-
-          <div class="col-xl-5 content">
-            <h3>Tentang KawanKampus</h3>
-            <h2>KawanKampus adalah ruang kolaborasi mahasiswa dan alumni untuk berkembang bersama.</h2>
-            <p style="text-align: justify; text-justify: inter-word; hyphens: auto;">KawanKampus hadir sebagai sarana
-              digital yang menghubungkan mahasiswa, alumni, dan komunitas kampus
-              dalam satu ekosistem pembelajaran. Melalui platform ini, kami membantu mahasiswa menemukan inspirasi,
-              berbagi pengalaman, dan memperluas jejaring profesional. Tidak hanya itu, alumni juga dapat berkontribusi
-              dengan berbagi ilmu, membuka peluang karir, serta menjadi mentor bagi generasi berikutnya.</p>
-            <a href="#" class="read-more"><span>Bergabung sekarang</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-
-          <div class="col-xl-7">
-            <div class="row gy-4 icon-boxes">
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                  <i class="bi bi-people"></i>
-                  <h3>Jejaring Kampus</h3>
-                  <p style="text-align: justify; text-justify: inter-word; hyphens: auto;">Bangun relasi dengan
-                    mahasiswa dan alumni lintas jurusan serta angkatan. Dapatkan koneksi yang
-                    bermanfaat untuk karir dan pengembangan diri.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-book"></i>
-                  <h3>Belajar & Berbagi</h3>
-                  <p style="text-align: justify; text-justify: inter-word; hyphens: auto;">Temukan berbagai sumber ilmu,
-                    diskusi komunitas, hingga pengalaman alumni. Belajar jadi lebih mudah
-                    dengan dukungan dari sesama.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-briefcase"></i>
-                  <h3>Peluang Karir</h3>
-                  <p style="text-align: justify; text-justify: inter-word; hyphens: auto;">Akses informasi magang,
-                    kerja, hingga project kolaborasi dari alumni dan mitra industri. Jadikan
-                    kampus sebagai gerbang menuju dunia kerja.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-rocket-takeoff"></i>
-                  <h3>Kolaborasi & Inovasi</h3>
-                  <p style="text-align: justify;">Wadah untuk mahasiswa dan alumni berkarya bersama. Dari ide kecil
-                    hingga startup, mari wujudkan
-                    inovasi nyata untuk masa depan.
-                  </p>
-                </div>
-              </div> <!-- End Icon Box -->
-
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-in"
+            >
+              <h1>
+                Semua Aktivitas Kampus dalam Satu Aplikasi:
+                <span>KawanKampus</span>
+              </h1>
+              <p>
+                Dari nebeng, jajan, mentoring, ngerjain tugas, sampai cari lowongan kerja —
+                semuanya bisa kamu temukan di sini.
+              </p>
+              <div class="d-flex">
+                <a href="#tentang" class="btn-get-started">Mulai Sekarang</a>
+                <a
+                  href="https://www.youtube.com/watch?v=yiDPHRJaj90"
+                  class="glightbox btn-watch-video d-flex align-items-center"
+                  target="_blank"
+                  ><i class="bi bi-play-circle"></i><span>Tonton Video</span>
+                </a>
+              </div>
             </div>
           </div>
-
         </div>
-      </div>
 
-    </section><!-- /About Section -->
+        <svg
+          class="hero-waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28 "
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <path
+              id="wave-path"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            ></path>
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3"></use>
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0"></use>
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9"></use>
+          </g>
+        </svg>
+      </section>
+      <!-- /Hero Section -->
 
-    <!-- Features Section -->
-    <section id="fitur" class="features section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="features-item">
-              <i class="bi bi-mortarboard" style="color: #e80368;"></i>
-              <h3><a href="#fitur" class="stretched-link">KawanMentor</a></h3>
+      <!-- About Section -->
+      <section id="tentang" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+            <div class="col-xl-5 content">
+              <h3>Tentang KawanKampus</h3>
+              <h2>
+                KawanKampus adalah ruang kolaborasi mahasiswa dan alumni untuk
+                berkembang bersama.
+              </h2>
+              <p
+                style="
+                  text-align: justify;
+                  text-justify: inter-word;
+                  hyphens: auto;
+                "
+              >
+                KawanKampus hadir sebagai sarana digital yang menghubungkan
+                mahasiswa, alumni, dan komunitas kampus dalam satu ekosistem
+                pembelajaran. Melalui platform ini, kami membantu mahasiswa
+                menemukan inspirasi, berbagi pengalaman, dan memperluas jejaring
+                profesional. Tidak hanya itu, alumni juga dapat berkontribusi
+                dengan berbagi ilmu, membuka peluang karir, serta menjadi mentor
+                bagi generasi berikutnya.
+              </p>
+              <a href="#" class="read-more"
+                ><span>Bergabung sekarang</span><i class="bi bi-arrow-right"></i
+              ></a>
             </div>
-          </div><!-- End Feature Item -->
 
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="features-item">
-              <i class="bi bi-bicycle" style="color: #e361ff;"></i>
-              <h3><a href="#fitur" class="stretched-link">KawanNebeng</a></h3>
+            <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                    <i class="bi bi-people"></i>
+                    <h3>Jejaring Kampus</h3>
+                    <p
+                      style="
+                        text-align: justify;
+                        text-justify: inter-word;
+                        hyphens: auto;
+                      "
+                    >
+                      Bangun relasi dengan mahasiswa dan alumni lintas jurusan
+                      serta angkatan. Dapatkan koneksi yang bermanfaat untuk
+                      karir dan pengembangan diri.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-book"></i>
+                    <h3>Belajar & Berbagi</h3>
+                    <p
+                      style="
+                        text-align: justify;
+                        text-justify: inter-word;
+                        hyphens: auto;
+                      "
+                    >
+                      Temukan berbagai sumber ilmu, diskusi komunitas, hingga
+                      pengalaman alumni. Belajar jadi lebih mudah dengan
+                      dukungan dari sesama.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-briefcase"></i>
+                    <h3>Peluang Karir</h3>
+                    <p
+                      style="
+                        text-align: justify;
+                        text-justify: inter-word;
+                        hyphens: auto;
+                      "
+                    >
+                      Akses informasi magang, kerja, hingga project kolaborasi
+                      dari alumni dan mitra industri. Jadikan kampus sebagai
+                      gerbang menuju dunia kerja.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-rocket-takeoff"></i>
+                    <h3>Kolaborasi & Inovasi</h3>
+                    <p style="text-align: justify">
+                      Wadah untuk mahasiswa dan alumni berkarya bersama. Dari
+                      ide kecil hingga startup, mari wujudkan inovasi nyata
+                      untuk masa depan.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+              </div>
             </div>
-          </div><!-- End Feature Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
 
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="features-item">
-              <i class="bi bi-cash" style="color: #47aeff;"></i>
-              <h3><a href="#fitur" class="stretched-link">KawanUang</a></h3>
+      <!-- Features Section -->
+      <section id="fitur" class="features section">
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="features-item">
+                <i class="bi bi-mortarboard" style="color: #e80368"></i>
+                <h3><a href="#fitur" class="stretched-link">KawanMentor</a></h3>
+              </div>
             </div>
-          </div><!-- End Feature Item -->
+            <!-- End Feature Item -->
 
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="features-item">
-              <i class="bi bi-briefcase" style="color: #11dbcf;"></i>
-              <h3><a href="#fitur" class="stretched-link">KawanKarier</a></h3>
+            <div
+              class="col-lg-3 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="features-item">
+                <i class="bi bi-bicycle" style="color: #e361ff"></i>
+                <h3><a href="#fitur" class="stretched-link">KawanNebeng</a></h3>
+              </div>
             </div>
-          </div><!-- End Feature Item -->
+            <!-- End Feature Item -->
 
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="features-item">
-              <i class="bi bi-egg-fried" style="color: #ffa76e;"></i>
-              <h3><a href="#fitur" class="stretched-link">KawanKantin</a></h3>
+            <div
+              class="col-lg-3 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="features-item">
+                <i class="bi bi-cash" style="color: #47aeff"></i>
+                <h3><a href="#fitur" class="stretched-link">KawanUang</a></h3>
+              </div>
             </div>
-          </div><!-- End Feature Item -->
+            <!-- End Feature Item -->
 
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
-            <div class="features-item">
-              <i class="bi bi-command" style="color: #4233ff;"></i>
-              <h3><a href="#fitur" class="stretched-link">KawanKoneksi</a></h3>
+            <div
+              class="col-lg-3 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <div class="features-item">
+                <i class="bi bi-briefcase" style="color: #11dbcf"></i>
+                <h3><a href="#fitur" class="stretched-link">KawanKarier</a></h3>
+              </div>
             </div>
-          </div><!-- End Feature Item -->
+            <!-- End Feature Item -->
 
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
-            <div class="features-item">
-              <i class="bi bi-cpu" style="color: #4233ff;"></i>
-              <h3><a href="#fitur" class="stretched-link">KawanAi</a></h3>
+            <div
+              class="col-lg-3 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="features-item">
+                <i class="bi bi-egg-fried" style="color: #ffa76e"></i>
+                <h3><a href="#fitur" class="stretched-link">KawanKantin</a></h3>
+              </div>
             </div>
-          </div><!-- End Feature Item -->
+            <!-- End Feature Item -->
 
-          <!-- <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
+            <div
+              class="col-lg-3 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
+              <div class="features-item">
+                <i class="bi bi-command" style="color: #4233ff"></i>
+                <h3>
+                  <a href="#fitur" class="stretched-link">KawanKoneksi</a>
+                </h3>
+              </div>
+            </div>
+            <!-- End Feature Item -->
+
+            <div
+              class="col-lg-3 col-md-4"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
+              <div class="features-item">
+                <i class="bi bi-cpu" style="color: #4233ff"></i>
+                <h3><a href="#fitur" class="stretched-link">KawanAi</a></h3>
+              </div>
+            </div>
+            <!-- End Feature Item -->
+
+            <!-- <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
             <div class="features-item">
               <i class="bi bi-command" style="color: #b2904f;"></i>
               <h3><a href="" class="stretched-link">Dirada Pack</a></h3>
             </div>
           </div> --><!-- End Feature Item -->
 
-          <!-- <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
+            <!-- <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
             <div class="features-item">
               <i class="bi bi-dribbble" style="color: #b20969;"></i>
               <h3><a href="" class="stretched-link">Moton Ideal</a></h3>
             </div>
           </div> --><!-- End Feature Item -->
 
-          <!-- <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
+            <!-- <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
             <div class="features-item">
               <i class="bi bi-activity" style="color: #ff5828;"></i>
               <h3><a href="" class="stretched-link">Verdo Park</a></h3>
             </div>
           </div> --><!-- End Feature Item -->
 
-          <!--  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
+            <!--  <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
             <div class="features-item">
               <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
               <h3><a href="" class="stretched-link">Flavor Nivelanda</a></h3>
             </div>
           </div> --><!-- End Feature Item -->
-
+          </div>
         </div>
+      </section>
+      <!-- /Features Section -->
 
-      </div>
-
-    </section><!-- /Features Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Pengguna Bahagia</p>
+      <!-- Stats Section -->
+      <section id="stats" class="stats section light-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-emoji-smile"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Pengguna Bahagia</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
+            <!-- End Stats Item -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Bimbingan Tugas</p>
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-journal-richtext"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="521"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Bimbingan Tugas</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
+            <!-- End Stats Item -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-headset"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Pelayanan Admin</p>
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-headset"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1463"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Pelayanan Admin</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
+            <!-- End Stats Item -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-people"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Mitra</p>
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-people"></i>
+              <div class="stats-item">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="15"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Mitra</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-
+            <!-- End Stats Item -->
+          </div>
         </div>
+      </section>
+      <!-- /Stats Section -->
 
-      </div>
+      <!-- Details Section -->
+      <section id="details" class="details section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Detail</h2>
+          <div>
+            <span>Periksa</span> <span class="description-title">Detail</span>
+            <span>kami</span>
+          </div>
+        </div>
+        <!-- End Section Title -->
 
-    </section><!-- /Stats Section -->
+        <div class="container">
+          <div
+            class="row gy-4 align-items-center features-item"
+            id="kawanmentor"
+          >
+            <div
+              class="col-md-5 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <img src="assets/img/Group 336.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+              <h3>KawanMentor</h3>
+              <p class="fst-italic">
+                Aplikasi bimbingan akademik dan praktek dengan mentor pilihan.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Mentor bisa dari dosen, alumni, kakak tingkat, atau
+                    profesional.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Mendukung bimbingan tugas kuliah, skripsi/TA, hingga
+                    praktek lapangan.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Fitur chat, jadwal pertemuan, dan upload dokumen.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Membangun relasi akademik yang kuat antar generasi
+                    kampus.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
 
-    <!-- Details Section -->
-    <section id="details" class="details section">
+          <div
+            class="row gy-4 align-items-center features-item"
+            id="kawannebeng"
+          >
+            <div
+              class="col-md-5 order-1 order-md-2 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <img src="assets/img/Tebengan.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+              <h3>KawanNebeng (Coming Soon)</h3>
+              <p class="fst-italic">
+                Aplikasi ojek online mahasiswa kampus dengan mitra mahasiswa.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Solusi transportasi hemat dan ramah lingkungan di sekitar
+                    kampus.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Mahasiswa bisa jadi driver sekaligus penumpang.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Sistem rating & verifikasi untuk keamanan.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Bisa atur rute, biaya, dan jadwal nebeng.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 align-items-center features-item" id="kawanuang">
+            <div
+              class="col-md-5 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <img src="assets/img/Group 334.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+              <h3>KawanUang</h3>
+              <p class="fst-italic">
+                Aplikasi untuk mengatur finansial dan pengeluaran mahasiswa.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Catat pemasukan dan pengeluaran harian/bulanan.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Buat anggaran untuk kebutuhan kuliah, kos, dan
+                    hiburan.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Laporan visual dengan grafik pengeluaran.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Rekomendasi pengelolaan uang agar lebih hemat.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div
+            class="row gy-4 align-items-center features-item"
+            id="kawankarier"
+          >
+            <div
+              class="col-md-5 order-1 order-md-2 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img src="assets/img/Group 338.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="col-md-7 order-2 order-md-1"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>KawanKarier</h3>
+              <p class="fst-italic">
+                Aplikasi portal karir dan lowongan kerja untuk mahasiswa dan
+                alumni.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Akses info magang, part-time, dan full-time.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Fitur apply langsung dengan CV/portofolio.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Lowongan terpercaya dari alumni & mitra industri.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Notifikasi real-time untuk peluang terbaru.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div
+            class="row gy-4 align-items-center features-item"
+            id="kawankantin"
+          >
+            <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+              <img src="assets/img/details-3.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7" data-aos="fade-up">
+              <h3>KawanKantin (Coming Soon)</h3>
+              <p>Aplikasi pemesanan makanan online di sekitar kampus.</p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Pesan makanan/minuman dari kantin dan warung
+                    terdekat.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Fitur menu lengkap dengan harga & review mahasiswa.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Bisa pilih antar ke kos/kelas atau ambil langsung di
+                    kantin.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div
+            class="row gy-4 align-items-center features-item"
+            id="kawanforum"
+          >
+            <div
+              class="col-md-5 order-1 order-md-2 d-flex align-items-center"
+              data-aos="zoom-out"
+            >
+              <img src="assets/img/Group 335.png" class="img-fluid" alt="" />
+              <!-- <img src="assets/img/details-4.png" class="img-fluid" alt=""> -->
+            </div>
+            <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+              <h3>KawanKoneksi</h3>
+              <p class="fst-italic">
+                Platform diskusi dan berbagai ide, mirip Quora versi kampus.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Diskusi terbuka seputar mata kuliah, organisasi, atau isu
+                    terkini.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Alumni, mahasiswa, dan dosen bisa ikut berkontribusi.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Sistem upvote komentar untuk menyoroti jawaban
+                    terbaik.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Tempat bertukar pengalaman dan inspirasi antar civitas
+                    kampus.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 align-items-center features-item" id="kawanai">
+            <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+              <img src="assets/img/Group 337.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7" data-aos="fade-up">
+              <h3>KawanAI</h3>
+              <p class="fst-italic">
+                Asisten cerdas yang selalu siap membantu urusan kuliah, dari
+                tugas sampai riset kecil-kecilan.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Jawaban cepat untuk tugas, materi kuliah, hingga penjelasan
+                    konsep sulit.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Rekomendasi referensi belajar yang sesuai
+                    kebutuhanmu.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span
+                    >Bisa dipakai untuk brainstorming, bikin outline laporan,
+                    atau nyusun ide proyek.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check"></i>
+                  <span>Tersedia 24 jam sebagai partner belajar digital.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Details Section -->
+
+      <!-- Gallery Section -->
+      <!-- <section id="galeri" class="gallery section"> -->
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Detail</h2>
-        <div><span>Periksa</span> <span class="description-title">Detail</span> <span>kami</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4 align-items-center features-item" id="kawanmentor">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/details-1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>KawanMentor</h3>
-            <p class="fst-italic">
-              Aplikasi bimbingan akademik dan praktek dengan mentor pilihan.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Mentor bisa dari dosen, alumni, kakak tingkat, atau
-                  profesional.</span></li>
-              <li><i class="bi bi-check"></i> <span>Mendukung bimbingan tugas kuliah, skripsi/TA, hingga praktek
-                  lapangan.</span></li>
-              <li><i class="bi bi-check"></i> <span>Fitur chat, jadwal pertemuan, dan upload dokumen.</span></li>
-              <li><i class="bi bi-check"></i> <span>Membangun relasi akademik yang kuat antar generasi kampus.</span>
-              </li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" id="kawannebeng">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/Tebengan.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>KawanNebeng</h3>
-            <p class="fst-italic">
-              Aplikasi ojek online mahasiswa kampus dengan mitra mahasiswa.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Solusi transportasi hemat dan ramah lingkungan di sekitar
-                  kampus.</span></li>
-              <li><i class="bi bi-check"></i> <span>Mahasiswa bisa jadi driver sekaligus penumpang.</span></li>
-              <li><i class="bi bi-check"></i> <span>Sistem rating & verifikasi untuk keamanan.</span></li>
-              <li><i class="bi bi-check"></i> <span>Bisa atur rute, biaya, dan jadwal nebeng.</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" id="kawanuang">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/KawanUang.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>KawanUang</h3>
-            <p class="fst-italic">
-              Aplikasi untuk mengatur finansial dan pengeluaran mahasiswa.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Catat pemasukan dan pengeluaran harian/bulanan.</span></li>
-              <li><i class="bi bi-check"></i> <span>Buat anggaran untuk kebutuhan kuliah, kos, dan hiburan.</span></li>
-              <li><i class="bi bi-check"></i> <span>Laporan visual dengan grafik pengeluaran.</span></li>
-              <li><i class="bi bi-check"></i> <span>Rekomendasi pengelolaan uang agar lebih hemat.</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" id="kawankarier">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/details-2.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>KawanKarier</h3>
-            <p class="fst-italic">
-              Aplikasi portal karir dan lowongan kerja untuk mahasiswa dan alumni.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Akses info magang, part-time, dan full-time.</span></li>
-              <li><i class="bi bi-check"></i> <span>Fitur apply langsung dengan CV/portofolio.</span></li>
-              <li><i class="bi bi-check"></i> <span>Lowongan terpercaya dari alumni & mitra industri.</span></li>
-              <li><i class="bi bi-check"></i> <span>Notifikasi real-time untuk peluang terbaru.</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" id="kawankantin">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/details-3.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up">
-            <h3>KawanKantin</h3>
-            <p>
-              Aplikasi pemesanan makanan online di sekitar kampus.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Pesan makanan/minuman dari kantin dan warung terdekat.</span></li>
-              <li><i class="bi bi-check"></i> <span>Fitur menu lengkap dengan harga & review mahasiswa.</span></li>
-              <li><i class="bi bi-check"></i> <span>Bisa pilih antar ke kos/kelas atau ambil langsung di kantin.</span>
-              </li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" id="kawanforum">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/forum1.png" class="img-fluid" alt="">
-            <!-- <img src="assets/img/details-4.png" class="img-fluid" alt=""> -->
-          </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-            <h3>KawanKoneksi</h3>
-            <p class="fst-italic">
-              Platform diskusi dan berbagai ide, mirip Quora versi kampus.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> <span>Diskusi terbuka seputar mata kuliah, organisasi, atau isu
-                  terkini.</span></li>
-              <li><i class="bi bi-check"></i> <span>Alumni, mahasiswa, dan dosen bisa ikut berkontribusi.</span></li>
-              <li><i class="bi bi-check"></i> <span>Sistem upvote komentar untuk menyoroti jawaban terbaik.</span></li>
-              <li><i class="bi bi-check"></i> <span>Tempat bertukar pengalaman dan inspirasi antar civitas
-                  kampus.</span></li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-      </div>
-
-    </section><!-- /Details Section -->
-
-    <!-- Gallery Section -->
-    <!-- <section id="galeri" class="gallery section"> -->
-
-    <!-- Section Title -->
-    <!-- div class="container section-title" data-aos="fade-up">
+      <!-- div class="container section-title" data-aos="fade-up">
         <h2>Gallery</h2>
         <div><span>Check Our</span> <span class="description-title">Gallery</span></div>
       </div> --><!-- End Section Title -->
 
-    <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-0">
 
@@ -498,518 +814,774 @@
             </div>
           </div> --><!-- End Gallery Item -->
 
-    <!-- </div>
+      <!-- </div>
 
       </div>
 
     </section> --><!-- /Gallery Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-alter-background">
+      <!-- Testimonials Section -->
+      <section
+        id="testimonials"
+        class="testimonials section dark-alter-background"
+      >
+        <img
+          src="assets/img/testimonials-bg.jpg"
+          class="testimonials-bg"
+          alt=""
+        />
 
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
               }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/ruslasaid.jpeg" class="testimonial-img" alt="Ruslan Sa'id">
-                <h3>Ruslan Sa'id</h3>
-                <h4>Mahasiswa Semester 3</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/ruslasaid.jpeg"
+                    class="testimonial-img"
+                    alt="Ruslan Sa'id"
+                  />
+                  <h3>Ruslan Sa'id</h3>
+                  <h4>Mahasiswa Semester 3</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>
+                      Dengan KawanMentor, saya bisa bimbingan tugas akhir lebih
+                      mudah bersama kakak tingkat yang sudah berpengalaman.
+                      Rasanya seperti punya teman dekat sekaligus mentor!
+                    </span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>
-                    Dengan KawanMentor, saya bisa bimbingan tugas akhir lebih mudah bersama kakak tingkat yang sudah
-                    berpengalaman. Rasanya seperti punya teman dekat sekaligus mentor!
-                  </span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/ilyanarsti.jpeg" class="testimonial-img" alt="">
-                <h3>Ilyana Resti</h3>
-                <h4>Mahasiswa Semester 7</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/ilyanarsti.jpeg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Ilyana Resti</h3>
+                  <h4>Mahasiswa Semester 7</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>
+                      Aplikasi ini membantu dosen lebih dekat dengan mahasiswa.
+                      Lewat KawanForum, diskusi jadi lebih terarah, dan
+                      mahasiswa terlihat aktif mencari solusi.
+                    </span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>
-                    Aplikasi ini membantu dosen lebih dekat dengan mahasiswa. Lewat KawanForum, diskusi jadi lebih
-                    terarah, dan mahasiswa terlihat aktif mencari solusi.
-                  </span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/harisahazira.jpeg" class="testimonial-img" alt="">
-                <h3>Haris Alhazhira</h3>
-                <h4>Mahasiswa Semester 7</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/harisahazira.jpeg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Haris Alhazhira</h3>
+                  <h4>Mahasiswa Semester 7</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>
+                      Lewat KawanKarier, saya bisa membagikan info pekerjaan ke
+                      adik tingkat. Senang sekali bisa berkontribusi membuka
+                      peluang karir.
+                    </span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>
-                    Lewat KawanKarier, saya bisa membagikan info pekerjaan ke adik tingkat. Senang sekali bisa
-                    berkontribusi membuka peluang karir.
-                  </span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/izzahnabila.jpeg" class="testimonial-img" alt="">
-                <h3>Izzah Nabila</h3>
-                <h4>Pedagang di Kantin</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/izzahnabila.jpeg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Izzah Nabila</h3>
+                  <h4>Pedagang di Kantin</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>
+                      Sejak ada KawanKantin, penjualan meningkat karena
+                      mahasiswa bisa pesan makanan online. Praktis dan membantu
+                      usaha kecil seperti saya.
+                    </span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>
-                    Sejak ada KawanKantin, penjualan meningkat karena mahasiswa bisa pesan makanan online. Praktis dan
-                    membantu usaha kecil seperti saya.
-                  </span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/dimaghalrukba.jpeg" class="testimonial-img" alt="">
-                <h3>Dimagh Alrukba</h3>
-                <h4>Mahasiswa Semester 3</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/dimaghalrukba.jpeg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Dimagh Alrukba</h3>
+                  <h4>Mahasiswa Semester 3</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>
+                      Dengan KawanNebeng, saya bisa dapat penghasilan sekaligus
+                      membantu teman-teman satu kampus pulang bareng dengan aman
+                      dan hemat.
+                    </span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>
-                    Dengan KawanNebeng, saya bisa dapat penghasilan sekaligus membantu teman-teman satu kampus pulang
-                    bareng dengan aman dan hemat.
-                  </span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div><!-- End testimonial item -->
-
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
+      </section>
+      <!-- Testimonials Section -->
 
-      </div>
-
-    </section><!-- Testimonials Section -->
-
-    <!-- Team Section -->
-    <section id="tim" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Tim</h2>
-        <div><span>Cek Seluruh</span> <span class="description-title">Tim</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/pakiswandi.png" class="img-fluid picteam"
-                  alt="Iswandi Saputra"></div>
-              <div class="member-info">
-                <h4>Iswandi Saputra</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href="https://www.github.com/isoneday" target="_blank"><i class="bi bi-github"></i></a>
-                  <a href="https://www.facebook.com/iswandi.saputra.125" target="_blank"><i
-                      class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/67iswandisaputra" target="_blank"><i
-                      class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/iswandisaputra" target="_blank"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/ibrahimrisyad.jpg" class="img-fluid picteam" alt=""></div>
-              <div class="member-info">
-                <h4>Ibrahim Risyad</h4>
-                <span>Co-Founder</span>
-                <div class="social">
-                  <a href="https://www.github.com/risyady" target="_blank"><i class="bi bi-github"></i></a>
-                  <a href="https://www.facebook.com/ibrahim.risyad.127" target="_blank"><i
-                      class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/ibrahimrisyady" target="_blank"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/ibrahimrisyady" target="_blank"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/nada.jpg" class="img-fluid picteam" alt=""></div>
-              <div class="member-info">
-                <h4>Jovita Nada Syahira</h4>
-                <span>Co-Founder</span>
-
-                <div class="social">
-                  <!-- <a href="" target="_blank"><i class="bi bi-github"></i></a> -->
-                  <!-- <a href="" target="_blank"><i class="bi bi-facebook"></i></a> -->
-                  <a href="https://www.instagram.com/jovita_nsy" target="_blank"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/jovita-nada-syahira-0b9748378" target="_blank"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/agul.jpg" class="img-fluid picteam" alt="Marzah Gul"></div>
-              <div class="member-info">
-                <h4>Marzah Gul</h4>
-                <span>Co-Founder</span>
-                <div class="social">
-                  <a href="https://github.com/MarzahGul" target="_blank"><i class="bi bi-github"></i></a>
-                  <a href="https://www.facebook.com/profile.php?id=100070062345131" target="_blank"><i
-                      class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/marzahgul_" target="_blank"><i class="bi bi-instagram"></i></a>
-                  <!-- <a href="https://www.linkedin.com/in/iswandisaputra" target="_blank"><i class="bi bi-linkedin"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/aqiil.jpg" class="img-fluid picteam" alt=""></div>
-              <div class="member-info">
-                <h4>Muhammad Aqillah Paligie</h4>
-                <span>Co-Founder</span>
-                <div class="social">
-                  <a href="https://github.com/aqiilah790" target="_blank"><i class="bi bi-github"></i></a>
-                  <a href="https://www.facebook.com/muhammadaqiilah.paligie" target="_blank"><i
-                      class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/aqiilah1506" target="_blank"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/muhammad-aqiilaah-paligie-844642377" target="_blank"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/uzunu.jpg" class="img-fluid picteam" alt=""></div>
-              <div class="member-info">
-                <h4>Uzunu Khaira</h4>
-                <span>Co-Founder</span>
-                <div class="social">
-                  <a href="https://github.com/uzunukhaira" target="_blank"><i class="bi bi-github"></i></a>
-                  <a href="https://www.facebook.com/ukfearnot19" target="_blank"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/uk_fearnot" target="_blank"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/uzunu-khaira-72560a209" target="_blank"><i
-                      class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
+      <!-- Team Section -->
+      <section id="tim" class="team section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Tim</h2>
+          <div>
+            <span>Cek Seluruh</span> <span class="description-title">Tim</span>
+          </div>
         </div>
+        <!-- End Section Title -->
 
-      </div>
+        <div class="container">
+          <div class="row gy-5">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/pakiswandi.png"
+                    class="img-fluid picteam"
+                    alt="Iswandi Saputra"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Iswandi Saputra</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href="https://www.github.com/isoneday" target="_blank"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/iswandi.saputra.125"
+                      target="_blank"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/67iswandisaputra"
+                      target="_blank"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/iswandisaputra"
+                      target="_blank"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
 
-    </section><!-- /Team Section -->
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/ibrahimrisyad.jpg"
+                    class="img-fluid picteam"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Ibrahim Risyad</h4>
+                  <span>Co-Founder</span>
+                  <div class="social">
+                    <a href="https://www.github.com/risyady" target="_blank"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/ibrahim.risyad.127"
+                      target="_blank"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/ibrahimrisyady"
+                      target="_blank"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/ibrahimrisyady"
+                      target="_blank"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
 
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/nada.jpg"
+                    class="img-fluid picteam"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Jovita Nada Syahira</h4>
+                  <span>Co-Founder</span>
 
+                  <div class="social">
+                    <!-- <a href="" target="_blank"><i class="bi bi-github"></i></a> -->
+                    <!-- <a href="" target="_blank"><i class="bi bi-facebook"></i></a> -->
+                    <a
+                      href="https://www.instagram.com/jovita_nsy"
+                      target="_blank"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/jovita-nada-syahira-0b9748378"
+                      target="_blank"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
 
-    <!-- Faq Section -->
-    <section id="faq" class="faq section light-background">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/agul.jpg"
+                    class="img-fluid picteam"
+                    alt="Marzah Gul"
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Marzah Gul</h4>
+                  <span>Co-Founder</span>
+                  <div class="social">
+                    <a href="https://github.com/MarzahGul" target="_blank"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100070062345131"
+                      target="_blank"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/marzahgul_"
+                      target="_blank"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <!-- <a href="https://www.linkedin.com/in/iswandisaputra" target="_blank"><i class="bi bi-linkedin"></i></a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
 
-      <div class="container-fluid">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/aqiil.jpg"
+                    class="img-fluid picteam"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Muhammad Aqillah Paligie</h4>
+                  <span>Co-Founder</span>
+                  <div class="social">
+                    <a href="https://github.com/aqiilah790" target="_blank"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/muhammadaqiilah.paligie"
+                      target="_blank"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/aqiilah1506"
+                      target="_blank"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/muhammad-aqiilaah-paligie-844642377"
+                      target="_blank"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
 
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/uzunu.jpg"
+                    class="img-fluid picteam"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Uzunu Khaira</h4>
+                  <span>Co-Founder</span>
+                  <div class="social">
+                    <a href="https://github.com/uzunukhaira" target="_blank"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/ukfearnot19"
+                      target="_blank"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/uk_fearnot"
+                      target="_blank"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/uzunu-khaira-72560a209"
+                      target="_blank"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+          </div>
+        </div>
+      </section>
+      <!-- /Team Section -->
+
+      <!-- Faq Section -->
+      <section id="faq" class="faq section light-background">
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <div
+              class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1"
+            >
+              <div
+                class="content px-xl-5"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <h3><span>Yang Sering</span> <strong>Ditanyakan</strong></h3>
+                <p>
+                  KawanKampus adalah ekosistem digital yang menghubungkan
+                  mahasiswa, alumni, dan komunitas kampus melalui berbagai
+                  aplikasi penunjang, seperti KawanMentor, KawanNebeng,
+                  KawanUang, KawanKarier, KawanKantin, KawanForum.
+                </p>
+              </div>
+
+              <div
+                class="faq-container px-xl-5"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="faq-item faq-active">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Siapa saja yang bisa menggunakan KawanMentor?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Mahasiswa dapat mencari mentor dari dosen, alumni, maupun
+                      kakak tingkat. Alumni dan dosen juga bisa bergabung
+                      menjadi mentor untuk berbagi ilmu serta pengalaman.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Apakah KawanNebeng aman digunakan?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Ya, KawanNebeng menggunakan sistem verifikasi akun
+                      mahasiswa, rating driver, dan rute perjalanan yang jelas
+                      untuk memastikan keamanan penumpang maupun pengemudi.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Bagaimana KawanUang membantu mahasiswa?</h3>
+                  <div class="faq-content">
+                    <p>
+                      KawanUang membantu mencatat pemasukan dan pengeluaran
+                      harian, membuat anggaran bulanan, serta memberikan laporan
+                      dalam bentuk grafik agar mahasiswa bisa lebih hemat dan
+                      teratur.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
+            </div>
+
+            <div class="col-lg-5 order-1 order-lg-2">
+              <img
+                src="assets/img/faq.jpg"
+                class="img-fluid"
+                alt=""
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Faq Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Kontak</h2>
+          <div>
+            <span>Hubungi</span> <span class="description-title">Kontak</span>
+            <span>Kami</span>
+          </div>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Alamat</h3>
+                  <p>
+                    INATECHNO TRAINING CENTER, Kota Padang, Sumatera Barat 25568
+                  </p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Hubungi kami</h3>
+                  <p>+62 823-1144-5674</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email kami</h3>
+                  <p>kawankampus.idofficial@gmail.com</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+            </div>
+
+            <div class="col-lg-8">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Masukkan nama anda"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Masukkan email anda"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Masukkan subjek"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Masukkan pesan"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Memuat...</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Pesan anda telah terkirim. Terima kasih!
+                    </div>
+
+                    <button type="button">Kirim Pesan</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer dark-alter-background">
+      <div class="container footer-top">
         <div class="row gy-4">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
-            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Yang Sering</span> <strong>Ditanyakan</strong></h3>
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">KawanKampus</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>KawanKampus, Padang</p>
+              <p>Sumatera Barat, Indonesia 25568</p>
+              <p class="mt-3">
+                <strong>No. Telp:</strong> <span>+62 823-1144-5674</span>
+              </p>
               <p>
-                KawanKampus adalah ekosistem digital yang menghubungkan mahasiswa, alumni, dan komunitas kampus melalui
-                berbagai aplikasi penunjang, seperti KawanMentor, KawanNebeng, KawanUang, KawanKarier, KawanKantin,
-                KawanForum.
+                <strong>Email:</strong>
+                <span>kawankampus.idofficial@gmail.com</span>
               </p>
             </div>
-
-            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="faq-item faq-active">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Siapa saja yang bisa menggunakan KawanMentor?</h3>
-                <div class="faq-content">
-                  <p>
-                    Mahasiswa dapat mencari mentor dari dosen, alumni, maupun kakak tingkat. Alumni dan dosen juga bisa
-                    bergabung menjadi mentor untuk berbagi ilmu serta pengalaman.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Apakah KawanNebeng aman digunakan?</h3>
-                <div class="faq-content">
-                  <p>
-                    Ya, KawanNebeng menggunakan sistem verifikasi akun mahasiswa, rating driver, dan rute perjalanan
-                    yang jelas untuk memastikan keamanan penumpang maupun pengemudi.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Bagaimana KawanUang membantu mahasiswa?</h3>
-                <div class="faq-content">
-                  <p>
-                    KawanUang membantu mencatat pemasukan dan pengeluaran harian, membuat anggaran bulanan, serta
-                    memberikan laporan dalam bentuk grafik agar mahasiswa bisa lebih hemat dan teratur.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
+            <div class="social-links d-flex mt-4">
+              <a href="#footer"><i class="bi bi-github"></i></a>
+              <a href="#footer"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/kawankampus.id" target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#footer"><i class="bi bi-linkedin"></i></a>
             </div>
-
           </div>
 
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- Faq Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Kontak</h2>
-        <div><span>Hubungi</span> <span class="description-title">Kontak</span> <span>Kami</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Alamat</h3>
-                <p>INATECHNO TRAINING CENTER, Kota Padang, Sumatera Barat 25568</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Hubungi kami</h3>
-                <p>+62 823-1144-5674</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email kami</h3>
-                <p>kawankampus.idofficial@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#tentang">Tentang</a></li>
+              <li><a href="#fitur">Fitur</a></li>
+              <li><a href="#tim">Tim</a></li>
+              <li><a href="privacypolicy.html">Kebijakan Privasi</a></li>
+              <li><a href="delete-account.html">Hapus Akun</a></li>
+            </ul>
           </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="row gy-4">
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Layanan kami</h4>
+            <ul>
+              <li><a href="#kawanmentor">KawanMentor</a></li>
+              <li><a href="#kawannebeng">KawanNebeng</a></li>
+              <li><a href="#kawanuang">KawanUang</a></li>
+              <li><a href="#kawankarier">KawanKarier</a></li>
+              <li><a href="#kawankantin">KawanKantin</a></li>
+              <li><a href="#kawanforum">KawanForum</a></li>
+            </ul>
+          </div>
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Masukkan nama anda" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Masukkan email anda" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Masukkan subjek" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Masukkan pesan"
-                    required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Memuat...</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Pesan anda telah terkirim. Terima kasih!</div>
-
-                  <button type="button">Kirim Pesan</button>
-                </div>
-
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Berita kami</h4>
+            <p>
+              Ikuti berita kami dan dapatkan kabar terbaru tentang produk dan
+              layanan kami!
+            </p>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input type="email" name="email" /><input
+                  type="button"
+                  value="Langganan"
+                />
+              </div>
+              <div class="loading">Memuat...</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Anda sudah berlangganan. Terima kasih!
               </div>
             </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-alter-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">KawanKampus</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>KawanKampus, Padang</p>
-            <p>Sumatera Barat, Indonesia 25568</p>
-            <p class="mt-3"><strong>No. Telp:</strong> <span>+62 823-1144-5674</span></p>
-            <p><strong>Email:</strong> <span>kawankampus.idofficial@gmail.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href="#footer"><i class="bi bi-github"></i></a>
-            <a href="#footer"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/kawankampus.id" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="#footer"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Navigasi</h4>
-          <ul>
-            <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#tentang">Tentang</a></li>
-            <li><a href="#fitur">Fitur</a></li>
-            <li><a href="#tim">Tim</a></li>
-            <li><a href="privacypolicy.html">Kebijakan Privasi</a></li>
-            <li><a href="delete-account.html">Hapus Akun</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Layanan kami</h4>
-          <ul>
-            <li><a href="#kawanmentor">KawanMentor</a></li>
-            <li><a href="#kawannebeng">KawanNebeng</a></li>
-            <li><a href="#kawanuang">KawanUang</a></li>
-            <li><a href="#kawankarier">KawanKarier</a></li>
-            <li><a href="#kawankantin">KawanKantin</a></li>
-            <li><a href="#kawanforum">KawanForum</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Berita kami</h4>
-          <p>Ikuti berita kami dan dapatkan kabar terbaru tentang produk dan layanan kami!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="button" value="Langganan"></div>
-            <div class="loading">Memuat...</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Anda sudah berlangganan. Terima kasih!</div>
-          </form>
-        </div>
-
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">KawanKampus</strong> <span>All Rights Reserved</span>
-      </p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> • Addapted by KawanKampus Team 
-        <!-- <a
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">KawanKampus</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> •
+          Addapted by KawanKampus Team
+          <!-- <a
           href="https://themewagon.com">ThemeWagon</a> -->
+        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
